@@ -14,14 +14,18 @@ puts currency.zip(prices).to_h
 #puts prices[1097]
 #puts currency.find_index("UniCoin")
 a = currency.zip(prices).to_h
-#puts a
+puts a
 
 #Exo2-2
 puts a.min_by{|k,v|v}
 
 #Exo2-3
 
-puts a.max_by{|k,v| v.to_f}
+puts a.max_by{|k,v| v.to_f
+ 
+ #Exo2-4
+ 
+ #Exo2-5
 
 
 
